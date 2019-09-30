@@ -1,0 +1,29 @@
+object MainForm: TMainForm
+  Left = 621
+  Height = 515
+  Top = 104
+  Width = 843
+  Caption = 'Главная форма'
+  ClientHeight = 515
+  ClientWidth = 843
+  OnCreate = FormCreate
+  LCLVersion = '2.0.4.0'
+  object CreateDBButton: TButton
+    Left = 8
+    Height = 25
+    Top = 8
+    Width = 179
+    Caption = 'Создать БД'
+    OnClick = CreateDBButtonClick
+    TabOrder = 0
+  end
+  object DeleteFileButton: TButton
+    Left = 8
+    Height = 25
+    Top = 40
+    Width = 179
+    Caption = 'Удалить файл'
+    OnClick = DeleteFileButtonClick
+    TabOrder = 1
+  end
+end
